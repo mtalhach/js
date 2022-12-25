@@ -9,6 +9,11 @@
 //   }
 //   document.getElementById("demo").innerHTML = person.fullName.apply(person1);
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980
 // const person = {
 //     fullName: function(city, country) {
 //       return this.firstName + " " + this.lastName + "," + city + "," + country;
@@ -18,6 +23,7 @@
 //     firstName:"John",
 //     lastName: "Doe"
 //   }
+<<<<<<< HEAD
 //   document.getElementById("demo").innerHTML = person.fullName.apply(person1, ["Lahore", "Pakistan"]);
 
 // document.getElementById("demo").innerHTML=Math.max(3,4,1);
@@ -25,3 +31,15 @@
 // document.getElementById("demo").innerHTML = Math.max.apply(null, [1,2,3]);
 
 // document.getElementById("demo").innerHTML = Math.max.apply(Math, [1,2,3]);
+=======
+//   document.getElementById("demo").innerHTML = person.fullName.apply(person1, ["Lahore", "Pakistan"]); 
+
+
+// document.getElementById("demo").innerHTML=Math.max(3,4,1);
+
+
+// document.getElementById("demo").innerHTML = Math.max.apply(null, [1,2,3]);
+
+
+// document.getElementById("demo").innerHTML = Math.max.apply(Math, [1,2,3]);
+>>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980

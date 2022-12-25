@@ -34,3 +34,8 @@
 // const myBoys1=["Hamza","Umair"];
 // const Group=myGirls.concat(myBoys,myBoys1);
 // document.getElementById("demo").innerHTML=Group;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980
