@@ -33,13 +33,19 @@ const resturant = {
   },
 };
 
+//////////////////////////////////
+/*
 resturant.orderDelivery({
   address: 'Lahore',
 });
+*/
+//////////////////////////////////
+
 /*
 const { name, openingHours, categories } = resturant;
 console.log(name, openingHours, categories);
 */
+//////////////////////////////////
 
 /*
 const {
@@ -49,11 +55,13 @@ const {
 } = resturant;
 console.log(resturantName, hours, categ);
 */
+//////////////////////////////////
 
 /*
 const { menu = [], starterMenu: starter = [] } = resturant;
 console.log(menu, starter);
 */
+//////////////////////////////////
 
 /*
 let a = 134;
@@ -62,12 +70,14 @@ const obj = { a: 12, b: 13, c: 14 };
 ({ a, b } = obj);
 console.log(a, b);
 */
+//////////////////////////////////
 
 /*
 const { openingHours } = resturant;
 const { Fri } = openingHours;
 console.log(Fri);
 */
+//////////////////////////////////
 
 /*
 const { openingHours } = resturant;

@@ -7,7 +7,7 @@ const restaurant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 };
-
+//////////////////////////////
 restaurant.numGuest = 0;
 const guest1 = restaurant.numGuest || 20;
 console.log(guest1);

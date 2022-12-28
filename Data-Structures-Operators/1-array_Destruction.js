@@ -9,9 +9,13 @@ const resturant = {
   },
 };
 
+//////////////////////////////////////
+/*
 const [starter, main] = resturant.order(2, 0);
 console.log(starter, main);
+*/
 
+///////////////////////////////////////
 /*
 const arr = [1, 3, 4];
 const a = arr[0];
@@ -23,6 +27,7 @@ const [x, y, z] = arr;
 console.log(x, y, z);
 */
 
+///////////////////////////////////////
 /*
 let [first, , second] = resturant.categories;
 console.log(first, second);
@@ -35,6 +40,7 @@ console.log(first, second);
 console.log(first, second);
 */
 
+///////////////////////////////////////
 /*
 const nested = [2, 3, [5, 6]];
 // const [i, , j] = nested;

@@ -25,19 +25,25 @@ const restaurant = {
     console.log(otherIngredients);
   },
 };
-
+/////////////////////////////
+/*
 restaurant.orderPizza('Biryani', 'pizza', 'pasta', 'burger');
 restaurant.orderPizza('Biryani');
+*/
+/////////////////////////////
+
 /*
 //spreads, because right side of =
 const arr = [1, 2, ...[3, 4]];
 */
+/////////////////////////////
 
 /*
 //REST, because left side of =
 const [a, b, ...ohers] = [1, 2, 3, 4, 5];
 console.log(a, b, ohers);
 */
+/////////////////////////////
 
 /*
 const [pizza, , risasto, ...otherFood] = [
@@ -46,11 +52,13 @@ const [pizza, , risasto, ...otherFood] = [
 ];
 console.log(pizza, risasto, otherFood);
 */
+/////////////////////////////
 
 /*
 const { Sat, ...weekdays } = restaurant.openingHours;
 console.log(weekdays);
 */
+/////////////////////////////
 
 /*
 const add = function (...numbers) {

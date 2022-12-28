@@ -18,6 +18,7 @@ rest2.age ||= 20;
 console.log(rest1);
 console.log(rest2);
 */
+///////////////////////////////
 
 /*
 const rest1 = {
@@ -35,7 +36,9 @@ rest2.age ??= 20;
 console.log(rest1);
 console.log(rest2);
 */
+///////////////////////////////
 
+/*
 const rest1 = {
   fname: 'talha',
   lname: 'Ch',
@@ -50,3 +53,4 @@ rest1.fullName &&= 'javaScript';
 rest2.fullName &&= 'javaScript';
 console.log(rest1);
 console.log(rest2);
+*/
