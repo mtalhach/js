@@ -1,3 +1,5 @@
+'use strict';
+
 const resturant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
