@@ -16,6 +16,8 @@ const lufthansa = {
 lufthansa.book(239, 'Jonas Schmedtmann');
 lufthansa.book(635, 'John Smith');
 
+console.log(lufthansa);
+
 const eurowings = {
   airline: 'Eurowings',
   iataCode: 'EW',
@@ -41,6 +43,7 @@ const swiss = {
 };
 
 book.call(swiss, 583, 'Mary Cooper');
+console.log(swiss);
 
 // Apply method
 const flightData = [583, 'George Cooper'];
