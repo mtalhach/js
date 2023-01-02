@@ -1,9 +1,9 @@
 'use strict';
 const account1 = {
-  owner: 'Talha Ch',
+  owner: 'talhashafiqch@gmail.com',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
-  pin: 1111,
+  pin: 'pakistan',
 
   movementsDates: [
     '2019-01-28T09:15:04.904Z',
@@ -20,10 +20,10 @@ const account1 = {
 };
 
 const account2 = {
-  owner: 'Hassan Nawaz',
+  owner: 'ahsanmughal.cui@gmail.com',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
-  pin: 2222,
+  pin: 'pakistan',
 
   movementsDates: [
     '2019-01-25T14:18:46.235Z',
@@ -39,10 +39,10 @@ const account2 = {
   locale: 'en-US',
 };
 const account3 = {
-  owner: 'Hamza Aqeel',
-  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  owner: 'hamzaaqeel050@gmail.com',
+  movements: [5000, 3400, -150, -790, -1000, -30],
   interestRate: 1.5,
-  pin: 3333,
+  pin: 'pakistan',
 
   movementsDates: [
     '2019-01-25T14:18:46.235Z',
@@ -58,7 +58,27 @@ const account3 = {
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account4 = {
+  owner: 'asimsaleem437@gmail.com',
+  movements: [200, 455.23, -306.5, 25000, -133.9, 79.97],
+  interestRate: 1.2, // %
+  pin: 'pakistan',
+
+  movementsDates: [
+    '2019-01-28T09:15:04.904Z',
+    '2019-04-01T10:17:24.185Z',
+    '2019-05-27T17:01:17.194Z',
+    '2019-07-11T23:36:17.929Z',
+    '2019-11-18T21:31:17.178Z',
+    '2019-12-23T07:42:02.383Z',
+    '2020-03-08T14:11:59.604Z',
+    '2020-03-12T10:51:36.790Z',
+  ],
+  currency: 'EUR',
+  locale: 'pt-PT', // de-DE
+};
+
+const accounts = [account1, account2, account3, account4];
 
 //////////////////////////////////////////////////////////////////
 // APP
@@ -185,11 +205,7 @@ printMovements(account1);
 
 const createUsernames = function (accounts) {
   accounts.forEach(acc => {
-    acc.username = acc.owner
-      .toLowerCase()
-      .split(' ')
-      .map(name => name[0])
-      .join('');
+    acc.username = acc.owner.toLowerCase();
   });
 };
 createUsernames(accounts);
@@ -242,7 +258,7 @@ btnLogin.addEventListener('click', function (e) {
     acc => acc.username === inputLoginUsername.value
   );
 
-  if (currentAccount && currentAccount.pin === +inputLoginPin.value) {
+  if (currentAccount && currentAccount.pin === inputLoginPin.value) {
     console.log(currentAccount);
     inputLoginUsername.value = inputLoginPin.value = '';
     inputLoginPin.blur();
