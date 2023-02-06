@@ -1,10 +1,6 @@
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.sort();
-<<<<<<< HEAD
 // document.getElementById("demo").innerHTML = fruits;
-=======
-// document.getElementById("demo").innerHTML=fruits;
->>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.sort();
@@ -30,11 +26,7 @@
 
 // const points=[40,100,1,5,25,10];
 // points.sort(function(a,b){return b-a});
-<<<<<<< HEAD
 // let heighest=points[0];
-=======
-// let lowest=points[0];
->>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980
 // document.getElementById("demo").innerHTML="The Highest Element is: "+lowest;
 
 // const points=[40,100,2,5,25,10];
@@ -69,8 +61,4 @@
 //     cars[0].type +" "+cars[0].year +"<br>"+
 //     cars[1].type +" "+cars[1].year +"<br>"+
 //     cars[2].type +" "+cars[2].year;
-<<<<<<< HEAD
 // }
-=======
-// }
->>>>>>> 1bef52e58a56757ab565ce437075c8c6f4ad5980
