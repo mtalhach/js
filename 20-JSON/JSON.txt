@@ -1,0 +1,50 @@
+JSON (java script object notation):
+
+JSON is often used when data is sent from a server to a web page.
+What is JSON?
+JSON stands for JavaScript Object Notation.
+JSON is a lightweight data interchange format.
+JSON is language independent.
+JSON is "self-describing" and easy to understand.
+=================================================================
+JSON Syntax Rules:
+Data is in name/value pairs.
+Data is separated by commas;
+Curly braces hold objects.
+Square brackets hold arrays.
+=================================================================
+{
+"employees":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+=================================================================
+A Name and a Value:
+JSON data is written as name/value pairs, just like JavaScript object properties.
+"firstName":"John"
+=================================================================
+JSON Objects
+JSON objects are written inside curly braces.
+{"firstName":"John", "lastName":"Doe"}
+=================================================================
+JSON Arrays
+JSON arrays are written inside square brackets.
+"employees":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]
+=================================================================
+Converting a JSON Text to a JavaScript Object:
+A common use of JSON is to read data from a web server, and display the data in a web page.
+For simplicity, this can be demonstrated using a string as input.
+First, create a JavaScript string containing JSON syntax:
+
+let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+=================================================================
+

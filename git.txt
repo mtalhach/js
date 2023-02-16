@@ -1,0 +1,23 @@
+git push -u origin main
+git pull origin main
+
+for push
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin 
+git push -u origin main
+
+
+for pull and push
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin 
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "first commit"
+git push -u origin main
+
