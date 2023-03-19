@@ -1,16 +1,3 @@
-/*
-
-///////////////////////////////////////
-
-
-///////////////////////////////////////
-
-/*
-
-///////////////////////////////////////
-
-
-///////////////////////////////////////
 // Sticky navigation
 const initialCoords = section1.getBoundingClientRect();
 console.log(initialCoords);
@@ -55,4 +42,4 @@ window.addEventListener('beforeunload', function (e) {
   console.log(e);
   e.returnValue = '';
 });
-*/
+
