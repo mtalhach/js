@@ -1,0 +1,108 @@
+variables
+variable name convention
+Data type (let, const, var)
+operators (basic, assignment, comparison, Logical)
+strings and template literals
+if else statement
+Type Conversion and Coercion
+Truthy and Falsy Values
+Equality Operators: == vs. ===
+The switch statement
+conditional ternary operator
+**Functions**
+	--> apply function
+	--> call function
+	--> function parameter
+	--> default parameter
+	--> passing arguments(values vs reference)
+	--> call back function
+	--> functions returning function
+	--> apply and call method
+	--> bind method
+	--> imediately invoked function
+	--> closures
+**Array**
+	--> Array Sort
+   	--> Array iteration
+    	--> Array methods
+    	--> Looping Array for Each
+    	--> forEach with map and set
+    	--> Map method
+    	--> Filter Method
+    	--> Reduce Method
+    	--> chaining Method
+    	--> Find Method
+    	--> some & Every
+    	--> flat & flatMap Method
+    	--> sorting
+    	--> create filling Array
+    	--> Array Method
+**objects**
+	--> object display
+	--> object method
+	--> object iterables
+	--> object maps
+	--> object sets
+	--> object accessors
+	--> object constructor		
+**loops** 
+	--> for
+	--> for-in
+	--> for-of
+	--> forEach
+	--> while
+	--> do-while
+break, continue
+classes(inheritance, static)
+Modules (import, export)
+**DOM **
+	--> Selecting, Creating, and Deleting Elements
+	--> Styles, Attributes, and Classes
+	--> Event Handlers
+	--> DOM Traversing
+	--> Lifecycle DOM Events
+JSON
+**Data structure operators**
+	--> array destruction
+	--> object destruction
+	--> spread patterns/operators
+	--> rest patterns/operators
+	--> short circuiting
+	--> Nullish Coalescing Operator
+	--> logical assign operator
+	--> looping array (for of loop)
+	--> Enhanced object literals
+	--> optional Chaining (.)
+	--> Loop_Objects_ Object Keys, Values, and Entries
+	--> sets
+	--> maps
+	--> string
+**Date**
+	--> set date
+	--> get date
+**Numbers**
+	--> convert & check number
+	--> math & round
+	--> reminder operator
+	--> BigInt
+**OOP**
+	--> constructor, function, new keyword
+	--> prototype
+	--> prototypical inheritence
+	--> Es6 classes
+	--> setter, getter
+	--> object.create
+	--> inheritence constructor function
+	--> inheritence Es6 classes
+	--> inheritence object.create
+	--> Encapsulation
+**JS Async**
+	--> Asyncronous
+	--> callback function
+	--> promises
+	--> Async/wait
+	
+
+	
+
+
