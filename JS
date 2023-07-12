@@ -61,7 +61,8 @@ Modules (import, export)
 	--> Event Handlers
 	--> DOM Traversing
 	--> Lifecycle DOM Events
-JSON
+**JSON**
+	--> https://www.w3schools.com/js/js_json_intro.asp
 **Data structure operators**
 	--> array destruction
 	--> object destruction
@@ -102,9 +103,11 @@ JSON
 	--> promises
 	--> Async/wait
 **JS Browser DOM**
-	--> <a href="https://www.w3schools.com/js/js_window.asp">Browser DOM</a>
-
-
+	--> https://www.w3schools.com/js/js_window.asp
+**JS AJAX (Asynchronous javascript And XML)**
+	--> https://www.w3schools.com/js/js_ajax_intro.asp
+**XML (eXtensible Markup language)**
+	--> https://www.w3schools.com/xml/default.asp
 
 	
 
